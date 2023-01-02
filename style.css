@@ -1,0 +1,119 @@
+/* Mengganti warna tema Bootstrap */
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary: #d1c4e9;
+    --secondary: #b39ddb;
+    --success: #aed581;
+    --info: #64b5f6;
+    --warning: #ffee58;
+    --danger: #e57373;
+    --light: #f5f5f5;
+    --dark: #212121;
+  }
+  
+  /* Override beberapa style Bootstrap */
+  .navbar-light .navbar-brand,
+  .navbar-light .navbar-nav .nav-link {
+    color: #212121;
+  }
+  
+  .navbar-light .navbar-brand:hover,
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #d1c4e9;
+  }
+  
+  .btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+  
+  .btn-primary:hover {
+    background-color: #c5b5e5;
+    border-color: #c5b5e5;
+  }
+    /* Menambahkan beberapa style tambahan */
+    #banner {
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    #banner h1 {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    #banner p {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    #banner .btn {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: #fff;
+    font-size: 18px;
+    }
+    
+    #banner .btn:hover {
+    background-color: #c5b5e5;
+    border-color: #c5b5e5;
+    }
+    
+    #katalog .card {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    #katalog .card h3 {
+    color: var(--primary);
+    }
+    
+    #katalog .card h4 {
+    color: var(--secondary);
+    }
+    
+    #katalog .card .btn {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: #fff;
+    }
+    
+    #katalog .card .btn:hover {
+    background-color: #c5b5e5;
+    border-color: #c5b5e5;
+    }
+
+
+    #tentang-kami img {
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        #kontak form .form-control {
+        border-color: var(--primary);
+        }
+        
+        #kontak form .btn {
+        background-color: var(--primary);
+        border-color: var(--primary);
+        color: #fff;
+        }
+        
+        #kontak form .btn:hover {
+        background-color: #c5b5e5;
+        border-color: #c5b5e5;
+        }
+        
+        footer {
+        background-color: var(--dark);
+        }
+        
+        footer p {
+        color: #fff;
+        }
